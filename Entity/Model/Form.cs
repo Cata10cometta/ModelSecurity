@@ -1,0 +1,23 @@
+﻿using Entity.Model.Base;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Entity.Model
+{
+    public class Form : BaseModel
+    {
+        public string Name { get; set; } = null!;
+        public string Url { get; set; } = null!;
+        public string Code { get; set; } = null!;
+
+        
+        public IEnumerable<FormModule> FormModules { get; set; }
+        public IEnumerable<RolFormPermission> RolFormPermissions { get; set; }
+
+
+
+    }
+}
