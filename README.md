@@ -315,7 +315,9 @@ El objetivo de **ModelSecurity** es desarrollar una API REST que permita gestion
 
 **Catalina Cometa**
 
-Proyecto desarrollado con fines académicos y de aprendizaje en desarrollo de software, arquitectura de aplicaciones y seguridad.
+Proyecto desarrollado como parte del proceso de formación y fortalecimiento de competencias en desarrollo de software.
+
+Tecnologías principales: C# · .NET · ASP.NET Core · SQL Server · Entity Framework Core · JWT
 
 ---
 
